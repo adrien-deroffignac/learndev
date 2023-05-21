@@ -1,0 +1,80 @@
+/*Customisation du tweet et du bouton pour supprimer*/
+.tweet {
+    background-color: var(--color-white1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+    margin-bottom: 20px;
+    width: auto;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: var(--color-grey2);
+    color: var(--color-white1);
+}
+
+.tweet button {
+    font-size: 16px;
+}
+  
+
+/*Form pour envoyer le message*/
+.recherche {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+.recherche h2{
+    margin-right: 10px;
+}
+/*Select pour trier du plus récent au plus ancien*/
+option {
+    background-color: var(--color-white);
+    color: #333333;
+    font-size: 18px;
+    text-align: center;
+}
+  
+select {
+    width: 150px;
+    height: 30px;
+    color: var(--color-white);
+    font-size: 18px;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+  
+select:focus {
+    outline: none;
+}
+
+
+/*Div pour modifier la barre pour envoyer les messages et l'option pour trier du plus récent au plus ancien*/
+.ecrire {
+    margin-top: 65px;
+    margin-left: 224px;
+    display: flex;
+    height: 60px;
+    width: auto;
+    padding: 15px;
+    justify-content: flex-start;
+}
+  
+.ecrire > form {
+    padding-left: 20px;
+}
+  
+.tweet-rapide{
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    height: 42.38px;
+    right: 20px;
+    z-index: 200;
+
+}
+
+#bouton-tweet-rapide{
+    margin-left: 5px;
+}
